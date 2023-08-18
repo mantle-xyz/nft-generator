@@ -8,6 +8,9 @@
     "dotenv": "^16.3.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "generate": "node index.js",
+    "format": "./formatter.sh",
+    "replacer": "node replacer.js",
+    "folderer": "node folderer.js"
   }
 }

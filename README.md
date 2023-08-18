@@ -38,29 +38,21 @@ The \_\_z followed by the layer number represents the desired layer for that tra
 
 Before you start generating images, you can configure various settings using the .env file. Create a .env file in the root directory of your project and define the following variables:
 
-dotenv
-Copy code
-
-### Specify the dataset to be used for image generation
-
 DATASET=mantle
 
-### Define the start and end indices for dataset processing
-
 START_INDEX=0
-END_INDEX=500
 
-### Set the image URI prefix
+END_INDEX=500
 
 IMAGE_URI_PREFIX=journey.mantle.xyz/nft/citizensofmantle?id=
 
-### Configure the name prefix for generated images
-
 NAME_PREFIX=Citizen of Mantle
 
-### Define a default description for generated images
-
 DESCRIPTION=Citizens of Mantle collection
+
+HEIGHT=3000
+
+WIDTH=3000
 
 ## Generating Images
 

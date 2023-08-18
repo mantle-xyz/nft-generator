@@ -34,8 +34,8 @@ const ae = new ArtEngine({
       description: (attributes) => process.env.DESCRIPTION,
     }),
     new renderers.ImageLayersRenderer({
-      width: 3000,
-      height: 3000,
+      width: process.env.WIDTH,
+      height: process.env.HEIGHT,
     }),
   ],
 

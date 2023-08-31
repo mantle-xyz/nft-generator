@@ -109,10 +109,9 @@ const uploadDirectory = async function uploadDirectory({
       path: "./output",
       params: {
         Bucket: process.env.S3_BUCKET,
-        ACL: "public-read",
       },
       options: {},
-      rootKey: "",
+      rootKey: "citizensofmantle",
     });
 
     console.timeEnd("s3 upload");

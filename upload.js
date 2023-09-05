@@ -10,6 +10,7 @@ require("dotenv").config();
 
 const s3 = new S3({
   signatureVersion: "v4",
+  region: process.env.S3_REGION,
 });
 
 // upload file

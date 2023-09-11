@@ -18,6 +18,7 @@
     "upload": "node upload.js",
     "upload_traits": "node upload_traits.js",
     "rewrite-uid": "node rewrite-uid.js",
-    "rename-metadata": "node rename-metadata.js"
+    "rename-metadata": "node rename-metadata.js",
+    "filter-yellow-glove": "node filter-yellow-glove.js"
   }
 }

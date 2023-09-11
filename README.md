@@ -98,7 +98,7 @@ After executing these commands, all images and JSON metadata files will be avail
 
 ### Workflow for Citizen of Mantle
 
-1. Copy the source images to `data` folder by batch - we categorized using skin type and with rare hair or not
+1. Copy the source images to `data` folder by batch (we categorized using skin type and process with normal hairs first) and setup the number of images that we want to generate in `.env` by updating `START_INDEX` and `END_INDEX` (probably 24k images for normal hairs)
 
 2. Generate images:
 
@@ -118,10 +118,16 @@ npm run rewrite-uid
 npm run rename-metadata
 ```
 
-5. Filter (YELLOW GLOVE should only match SPACESUIT but not other outfits)
+5. Copy the same skin colour but rare hair source images to `data` folder and setup the number of images that we want to generate in `.env` by updating `START_INDEX` and `END_INDEX` (probably 1k images for normal hairs)
+
+6. Filter (YELLOW GLOVE should only match SPACESUIT but not other outfits)
 
 ```sh
 npm run filter-yellow-glove
 ```
 
-6. Pick a specific number of images after filtering
+7. Pick a specific number of images after filtering (20k in our case)
+
+```sh
+npm run finalized-images
+```

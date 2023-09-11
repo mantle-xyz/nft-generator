@@ -19,6 +19,7 @@
     "upload_traits": "node upload_traits.js",
     "rewrite-uid": "node rewrite-uid.js",
     "rename-metadata": "node rename-metadata.js",
-    "filter-yellow-glove": "node filter-yellow-glove.js"
+    "filter-yellow-glove": "node filter-yellow-glove.js",
+    "finalized-images": "node get-certain-num-of-files.js"
   }
 }

@@ -30,7 +30,7 @@ const ae = new ArtEngine({
 
   renderers: [
     new renderers.ItemAttributesRenderer({
-      name: (itemUid) => `${process.env.NAME_PREFIX} ${itemUid}`,
+      name: (itemUid) => `${process.env.NAME_PREFIX}${itemUid}`,
       description: (attributes) => process.env.DESCRIPTION,
     }),
     new renderers.ImageLayersRenderer({
@@ -43,6 +43,7 @@ const ae = new ArtEngine({
     new exporters.ImagesExporter(),
     new exporters.Erc721MetadataExporter({
       imageUriPrefix: process.env.IMAGE_URI_PREFIX,
+      metadataFolder: 'metadata'
     }),
   ],
 });

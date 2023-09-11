@@ -1,0 +1,520 @@
+{
+    "BACKGROUND": {
+        "AUTUMN": {
+            "layer": 1,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BACKGROUND/AUTUMN.png",
+            "trait_type": "BACKGROUND",
+            "image_name": "AUTUMN"
+        },
+        "SUMMER": {
+            "layer": 1,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BACKGROUND/SUMMER.png",
+            "trait_type": "BACKGROUND",
+            "image_name": "SUMMER"
+        },
+        "SPRING": {
+            "layer": 1,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BACKGROUND/SPRING.png",
+            "trait_type": "BACKGROUND",
+            "image_name": "SPRING"
+        },
+        "WINTER": {
+            "layer": 1,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BACKGROUND/WINTER.png",
+            "trait_type": "BACKGROUND",
+            "image_name": "WINTER"
+        }
+    },
+    "BODY_ACCESSORY": {
+        "ROCKET": {
+            "layer": 2,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BODY_ACCESSORY/ROCKET.png",
+            "trait_type": "BODY_ACCESSORY",
+            "image_name": "ROCKET"
+        },
+        "PADDLE POP": {
+            "layer": 2,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BODY_ACCESSORY/PADDLE POP.png",
+            "trait_type": "BODY_ACCESSORY",
+            "image_name": "PADDLE POP"
+        },
+        "GUITAR": {
+            "layer": 2,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BODY_ACCESSORY/GUITAR.png",
+            "trait_type": "BODY_ACCESSORY",
+            "image_name": "GUITAR"
+        },
+        "SWORD": {
+            "layer": 2,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BODY_ACCESSORY/SWORD.png",
+            "trait_type": "BODY_ACCESSORY",
+            "image_name": "SWORD"
+        },
+        "MECHANIC WING": {
+            "layer": 2,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BODY_ACCESSORY/MECHANIC WING.png",
+            "trait_type": "BODY_ACCESSORY",
+            "image_name": "MECHANIC WING"
+        },
+        "SKATEBOARD": {
+            "layer": 2,
+            "image_uri": "static.mantle.xyz/citizensofmantle/BODY_ACCESSORY/SKATEBOARD.png",
+            "trait_type": "BODY_ACCESSORY",
+            "image_name": "SKATEBOARD"
+        }
+    },
+    "SKIN": {
+        "SKIN 01": {
+            "layer": 3,
+            "image_uri": "static.mantle.xyz/citizensofmantle/SKIN/SKIN 01.png",
+            "trait_type": "SKIN",
+            "image_name": "SKIN 01"
+        },
+        "SKIN 02": {
+            "layer": 3,
+            "image_uri": "static.mantle.xyz/citizensofmantle/SKIN/SKIN 02.png",
+            "trait_type": "SKIN",
+            "image_name": "SKIN 02"
+        },
+        "SKIN 03": {
+            "layer": 3,
+            "image_uri": "static.mantle.xyz/citizensofmantle/SKIN/SKIN 03.png",
+            "trait_type": "SKIN",
+            "image_name": "SKIN 03"
+        },
+        "SKIN 04": {
+            "layer": 3,
+            "image_uri": "static.mantle.xyz/citizensofmantle/SKIN/SKIN 04.png",
+            "trait_type": "SKIN",
+            "image_name": "SKIN 04"
+        },
+        "SKIN 05": {
+            "layer": 3,
+            "image_uri": "static.mantle.xyz/citizensofmantle/SKIN/SKIN 05.png",
+            "trait_type": "SKIN",
+            "image_name": "SKIN 05"
+        },
+        "SKIN 06": {
+            "layer": 3,
+            "image_uri": "static.mantle.xyz/citizensofmantle/SKIN/SKIN 06.png",
+            "trait_type": "SKIN",
+            "image_name": "SKIN 06"
+        },
+        "SKIN 07": {
+            "layer": 3,
+            "image_uri": "static.mantle.xyz/citizensofmantle/SKIN/SKIN 07.png",
+            "trait_type": "SKIN",
+            "image_name": "SKIN 07"
+        },
+        "SKIN 08": {
+            "layer": 3,
+            "image_uri": "static.mantle.xyz/citizensofmantle/SKIN/SKIN 08.png",
+            "trait_type": "SKIN",
+            "image_name": "SKIN 08"
+        }
+    },
+    "MOUTH": {
+        "MOUTH 01": {
+            "layer": 4,
+            "image_uri": "static.mantle.xyz/citizensofmantle/MOUTH/MOUTH 01.png",
+            "trait_type": "MOUTH",
+            "image_name": "MOUTH 01"
+        },
+        "MOUTH 02": {
+            "layer": 4,
+            "image_uri": "static.mantle.xyz/citizensofmantle/MOUTH/MOUTH 02.png",
+            "trait_type": "MOUTH",
+            "image_name": "MOUTH 02"
+        }
+    },
+    "EYEBROW": {
+        "EYEBROW 01": {
+            "layer": 5,
+            "image_uri": "static.mantle.xyz/citizensofmantle/EYEBROW/EYEBROW 01.png",
+            "trait_type": "EYEBROW",
+            "image_name": "EYEBROW 01"
+        },
+        "EYEBROW 02": {
+            "layer": 5,
+            "image_uri": "static.mantle.xyz/citizensofmantle/EYEBROW/EYEBROW 02.png",
+            "trait_type": "EYEBROW",
+            "image_name": "EYEBROW 02"
+        }
+    },
+    "EYE": {
+        "GREY EYES": {
+            "layer": 6,
+            "image_uri": "static.mantle.xyz/citizensofmantle/EYE/GREY EYES.png",
+            "trait_type": "EYE",
+            "image_name": "GREY EYES"
+        },
+        "JADE EYES": {
+            "layer": 6,
+            "image_uri": "static.mantle.xyz/citizensofmantle/EYE/JADE EYES.png",
+            "trait_type": "EYE",
+            "image_name": "JADE EYES"
+        },
+        "FUCHSIA EYES": {
+            "layer": 6,
+            "image_uri": "static.mantle.xyz/citizensofmantle/EYE/FUCHSIA EYES.png",
+            "trait_type": "EYE",
+            "image_name": "FUCHSIA EYES"
+        },
+        "LILAC EYES": {
+            "layer": 6,
+            "image_uri": "static.mantle.xyz/citizensofmantle/EYE/LILAC EYES.png",
+            "trait_type": "EYE",
+            "image_name": "LILAC EYES"
+        },
+        "FLAME EYES": {
+            "layer": 6,
+            "image_uri": "static.mantle.xyz/citizensofmantle/EYE/FLAME EYES.png",
+            "trait_type": "EYE",
+            "image_name": "FLAME EYES"
+        },
+        "VIOLET EYES": {
+            "layer": 6,
+            "image_uri": "static.mantle.xyz/citizensofmantle/EYE/VIOLET EYES.png",
+            "trait_type": "EYE",
+            "image_name": "VIOLET EYES"
+        }
+    },
+    "HAIR": {
+        "GREEN HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/GREEN HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "GREEN HAIR"
+        },
+        "CREAM HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/CREAM HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "CREAM HAIR"
+        },
+        "RED HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/RED HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "RED HAIR"
+        },
+        "MOCHA HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/MOCHA HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "MOCHA HAIR"
+        },
+        "CELESTE HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/CELESTE HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "CELESTE HAIR"
+        },
+        "SAGE HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/SAGE HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "SAGE HAIR"
+        },
+        "SILVER HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/SILVER HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "SILVER HAIR"
+        },
+        "BROWN HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/BROWN HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "BROWN HAIR"
+        },
+        "VIOLET HAIR": {
+            "layer": 7,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAIR/VIOLET HAIR.png",
+            "trait_type": "HAIR",
+            "image_name": "VIOLET HAIR"
+        }
+    },
+    "OUTFIT": {
+        "PURPLE JACKET": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/PURPLE JACKET.png",
+            "trait_type": "OUTFIT",
+            "image_name": "PURPLE JACKET"
+        },
+        "SAMURAI GEAR": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/SAMURAI GEAR.png",
+            "trait_type": "OUTFIT",
+            "image_name": "SAMURAI GEAR"
+        },
+        "SQUAMISH JACKET": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/SQUAMISH JACKET.png",
+            "trait_type": "OUTFIT",
+            "image_name": "SQUAMISH JACKET"
+        },
+        "LUMINA JACKET": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/LUMINA JACKET.png",
+            "trait_type": "OUTFIT",
+            "image_name": "LUMINA JACKET"
+        },
+        "JERSEY": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/JERSEY.png",
+            "trait_type": "OUTFIT",
+            "image_name": "JERSEY"
+        },
+        "SPACESUIT": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/SPACESUIT.png",
+            "trait_type": "OUTFIT",
+            "image_name": "SPACESUIT"
+        },
+        "NAUTICAL OUTFIT": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/NAUTICAL OUTFIT.png",
+            "trait_type": "OUTFIT",
+            "image_name": "NAUTICAL OUTFIT"
+        },
+        "SUIT": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/SUIT.png",
+            "trait_type": "OUTFIT",
+            "image_name": "SUIT"
+        },
+        "MECHANOSHIELD": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/MECHANOSHIELD.png",
+            "trait_type": "OUTFIT",
+            "image_name": "MECHANOSHIELD"
+        },
+        "STUDDED JACKET": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/STUDDED JACKET.png",
+            "trait_type": "OUTFIT",
+            "image_name": "STUDDED JACKET"
+        },
+        "VERDANT ATTIRE": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/VERDANT ATTIRE.png",
+            "trait_type": "OUTFIT",
+            "image_name": "VERDANT ATTIRE"
+        },
+        "SHADOWSTEEL": {
+            "layer": 8,
+            "image_uri": "static.mantle.xyz/citizensofmantle/OUTFIT/SHADOWSTEEL.png",
+            "trait_type": "OUTFIT",
+            "image_name": "SHADOWSTEEL"
+        }
+    },
+    "RARE_HAIR": {
+        "AMETHYST HAIR": {
+            "layer": 9,
+            "image_uri": "static.mantle.xyz/citizensofmantle/RARE_HAIR/AMETHYST HAIR.png",
+            "trait_type": "RARE_HAIR",
+            "image_name": "AMETHYST HAIR"
+        }
+    },
+    "ADD_ON_FACIAL_ACCESSORY": {
+        "EAR CUFF": {
+            "layer": 10,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_FACIAL_ACCESSORY/EAR CUFF.png",
+            "trait_type": "ADD_ON_FACIAL_ACCESSORY",
+            "image_name": "EAR CUFF"
+        },
+        "CLOWN MASK": {
+            "layer": 10,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_FACIAL_ACCESSORY/CLOWN MASK.png",
+            "trait_type": "ADD_ON_FACIAL_ACCESSORY",
+            "image_name": "CLOWN MASK"
+        },
+        "SUNGLASSES": {
+            "layer": 10,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_FACIAL_ACCESSORY/SUNGLASSES.png",
+            "trait_type": "ADD_ON_FACIAL_ACCESSORY",
+            "image_name": "SUNGLASSES"
+        },
+        "MECHMASK": {
+            "layer": 10,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_FACIAL_ACCESSORY/MECHMASK.png",
+            "trait_type": "ADD_ON_FACIAL_ACCESSORY",
+            "image_name": "MECHMASK"
+        }
+    },
+    "ADD_ON_HEADGEAR": {
+        "HORN": {
+            "layer": 11,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_HEADGEAR/HORN.png",
+            "trait_type": "ADD_ON_HEADGEAR",
+            "image_name": "HORN"
+        },
+        "ENERGY HALO": {
+            "layer": 11,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_HEADGEAR/ENERGY HALO.png",
+            "trait_type": "ADD_ON_HEADGEAR",
+            "image_name": "ENERGY HALO"
+        },
+        "GOLDEN CROWN": {
+            "layer": 11,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_HEADGEAR/GOLDEN CROWN.png",
+            "trait_type": "ADD_ON_HEADGEAR",
+            "image_name": "GOLDEN CROWN"
+        },
+        "MECHANIC EAR": {
+            "layer": 11,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_HEADGEAR/MECHANIC EAR.png",
+            "trait_type": "ADD_ON_HEADGEAR",
+            "image_name": "MECHANIC EAR"
+        },
+        "CAT CAP": {
+            "layer": 11,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_HEADGEAR/CAT CAP.png",
+            "trait_type": "ADD_ON_HEADGEAR",
+            "image_name": "CAT CAP"
+        },
+        "BLUE GOGGLES": {
+            "layer": 11,
+            "image_uri": "static.mantle.xyz/citizensofmantle/ADD_ON_HEADGEAR/BLUE GOGGLES.png",
+            "trait_type": "ADD_ON_HEADGEAR",
+            "image_name": "BLUE GOGGLES"
+        }
+    },
+    "HAND": {
+        "BRACELET HAND_1": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/BRACELET HAND_1.png",
+            "trait_type": "HAND",
+            "image_name": "BRACELET HAND_1"
+        },
+        "BRACELET HAND_2": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/BRACELET HAND_2.png",
+            "trait_type": "HAND",
+            "image_name": "BRACELET HAND_2"
+        },
+        "BRACELET HAND_3": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/BRACELET HAND_3.png",
+            "trait_type": "HAND",
+            "image_name": "BRACELET HAND_3"
+        },
+        "BRACELET HAND_4_blue": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/BRACELET HAND_4_blue.png",
+            "trait_type": "HAND",
+            "image_name": "BRACELET HAND_4_blue"
+        },
+        "BRACELET HAND_5": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/BRACELET HAND_5.png",
+            "trait_type": "HAND",
+            "image_name": "BRACELET HAND_5"
+        },
+        "BRACELET HAND_6": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/BRACELET HAND_6.png",
+            "trait_type": "HAND",
+            "image_name": "BRACELET HAND_6"
+        },
+        "BRACELET HAND_7": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/BRACELET HAND_7.png",
+            "trait_type": "HAND",
+            "image_name": "BRACELET HAND_7"
+        },
+        "BRACELET HAND_8": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/BRACELET HAND_8.png",
+            "trait_type": "HAND",
+            "image_name": "BRACELET HAND_8"
+        },
+        "ROCK HAND_1": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/ROCK HAND_1.png",
+            "trait_type": "HAND",
+            "image_name": "ROCK HAND_1"
+        },
+        "ROCK HAND_2": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/ROCK HAND_2.png",
+            "trait_type": "HAND",
+            "image_name": "ROCK HAND_2"
+        },
+        "ROCK HAND_3": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/ROCK HAND_3.png",
+            "trait_type": "HAND",
+            "image_name": "ROCK HAND_3"
+        },
+        "ROCK HAND_4_blue": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/ROCK HAND_4_blue.png",
+            "trait_type": "HAND",
+            "image_name": "ROCK HAND_4_blue"
+        },
+        "ROCK HAND_5": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/ROCK HAND_5.png",
+            "trait_type": "HAND",
+            "image_name": "ROCK HAND_5"
+        },
+        "ROCK HAND_6": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/ROCK HAND_6.png",
+            "trait_type": "HAND",
+            "image_name": "ROCK HAND_6"
+        },
+        "ROCK HAND_7": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/ROCK HAND_7.png",
+            "trait_type": "HAND",
+            "image_name": "ROCK HAND_7"
+        },
+        "ROCK HAND_8": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/ROCK HAND_8.png",
+            "trait_type": "HAND",
+            "image_name": "ROCK HAND_8"
+        },
+        "YELLOW GLOVE": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/YELLOW GLOVE.png",
+            "trait_type": "HAND",
+            "image_name": "YELLOW GLOVE"
+        },
+        "MECHANIC HAND": {
+            "layer": 12,
+            "image_uri": "static.mantle.xyz/citizensofmantle/HAND/MECHANIC HAND.png",
+            "trait_type": "HAND",
+            "image_name": "MECHANIC HAND"
+        }
+    },
+    "RARE_ADD_ON TRAITS": {
+        "MANTLE DOGGIE": {
+            "layer": 13,
+            "image_uri": "static.mantle.xyz/citizensofmantle/RARE_ADD_ON TRAITS/MANTLE DOGGIE.png",
+            "trait_type": "RARE_ADD_ON TRAITS",
+            "image_name": "MANTLE DOGGIE"
+        },
+        "MANTLE AIRSHIP": {
+            "layer": 13,
+            "image_uri": "static.mantle.xyz/citizensofmantle/RARE_ADD_ON TRAITS/MANTLE AIRSHIP.png",
+            "trait_type": "RARE_ADD_ON TRAITS",
+            "image_name": "MANTLE AIRSHIP"
+        },
+        "MANTLE BALL": {
+            "layer": 13,
+            "image_uri": "static.mantle.xyz/citizensofmantle/RARE_ADD_ON TRAITS/MANTLE BALL.png",
+            "trait_type": "RARE_ADD_ON TRAITS",
+            "image_name": "MANTLE BALL"
+        },
+        "MANTLE BADGE": {
+            "layer": 13,
+            "image_uri": "static.mantle.xyz/citizensofmantle/RARE_ADD_ON TRAITS/MANTLE BADGE.png",
+            "trait_type": "RARE_ADD_ON TRAITS",
+            "image_name": "MANTLE BADGE"
+        }
+    }
+}

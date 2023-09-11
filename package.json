@@ -15,6 +15,7 @@
     "format": "./formatter.sh",
     "replacer": "node replacer.js",
     "folderer": "node folderer.js",
-    "upload": "node upload.js"
+    "upload": "node upload.js",
+    "upload_traits": "node upload_traits.js"
   }
 }

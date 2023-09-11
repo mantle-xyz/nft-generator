@@ -64,16 +64,34 @@ Generate images:
 npm run generate
 ```
 
+Move generated images and metadata to output folder [optional]
+
 ```sh
 npm run format
 ```
+
+Replace dna to token id in `image` attribute for each json file in output/metadata folder [optional]
 
 ```sh
 npm run replacer
 ```
 
+Move the images to the folder that is named as the outfit name [optional]
+
 ```sh
 npm run folderer
+```
+
+Upload image and metadata files to S3
+
+```sh
+npm run upload
+```
+
+Upload traits images to S3
+
+```sh
+npm run upload_traits
 ```
 
 After executing these commands, all images and JSON metadata files will be available in the output folder. You can zip this folder and conveniently send it to your preferred storage, such as Google Drive.

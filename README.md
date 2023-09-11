@@ -95,3 +95,24 @@ npm run upload_traits
 ```
 
 After executing these commands, all images and JSON metadata files will be available in the output folder. You can zip this folder and conveniently send it to your preferred storage, such as Google Drive.
+
+
+### Workflow for Citizen of Mantle 
+1. Copy the source images to `data` folder by batch - we categorized using skin type and with rare hair or not
+
+2. Generate images:
+```sh
+npm run generate
+```
+
+3. Rewrite uid of each metadata file with dna values (reason: we will shuffle and assign token id later)
+```sh
+npm run rewrite-uid
+```
+
+4. Rename metadata file using dna value
+```sh
+npm run rename-metadata
+```
+
+5. Filter (YELLOW GLOVE should only match SPACESUIT but not other outfits)

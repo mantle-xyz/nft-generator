@@ -16,6 +16,8 @@
     "replacer": "node replacer.js",
     "folderer": "node folderer.js",
     "upload": "node upload.js",
-    "upload_traits": "node upload_traits.js"
+    "upload_traits": "node upload_traits.js",
+    "rewrite-uid": "node rewrite-uid.js",
+    "rename-metadata": "node rename-metadata.js"
   }
 }

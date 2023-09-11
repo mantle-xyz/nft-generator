@@ -30,7 +30,7 @@ const ae = new ArtEngine({
 
   renderers: [
     new renderers.ItemAttributesRenderer({
-      name: (itemUid) => `${process.env.NAME_PREFIX}${itemUid}`,
+      // name: (itemUid) => `${process.env.NAME_PREFIX}${itemUid}`,
       description: (attributes) => process.env.DESCRIPTION,
     }),
     new renderers.ImageLayersRenderer({
